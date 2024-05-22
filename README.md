@@ -27,6 +27,12 @@ docker build -t bun-elysia-template-v2 .
 docker run -p 8080:8080 bun-elysia-template-v2
 ```
 
+Testing
+
+```bash
+bun test
+```
+
 ## Which include
 
 - Postgrest and TypeORM
